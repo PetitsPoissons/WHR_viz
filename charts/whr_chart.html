@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Plotting World Happiness...</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://petitspoissons.github.io/WHR2019/charts/static/css/whr_chart.css">
+
+</head>
+
+<body>
+    <div class="container bg-white">      
+        <nav class="navbar navbar-expand-md animated fadeInDown navbar-light">
+            <img class="navbar-brand" id="whr_icon" src="https://petitspoissons.github.io/WHR2019/assets/images/whr_logo.jpg" alt="icon for whr">
+            <a class="navbar-brand text-white px-3" id="whr2019" href="https://petitspoissons.github.io/WHR2019/index.html"><h3>WHR 2019</h3></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Infographics</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="https://petitspoissons.github.io/WHR2019/world_map/world_map.html" target="_blank">World Map</a>
+                          <a class="dropdown-item" href="https://petitspoissons.github.io/WHR2019/charts/whr_chart.html" target="_blank">Results Plot</a>
+                          <a class="dropdown-item" href="https://petitspoissons.github.io/WHR2019/charts/exploratory_chart.html" target="_blank">Exploratory Plot</a>
+                          <a class="dropdown-item" href="https://petitspoissons.github.io/WHR2019/index.html" target="_blank">Time Series</a>
+                      </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://petitspoissons.github.io/WHR2019/table/table.html" target="_blank">Data</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://petitspoissons.github.io/WHR2019/intro.html">Slides</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+  <div class="container">
+    <div class="row py-2">
+      <div class="col-xs-12 col-md-12">
+        <div class="form-group">
+        <h2>Happiness Predictors - 
+          <select id="chart_yr">
+            <option selected="selected" value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+            <option value="2008">2008</option>
+            <option value="2007">2007</option>
+            <option value="2006">2006</option>
+            <option value="2005">2005</option>
+        </select>
+        <button id="submit" type="submit" class="btn btn-default">SUBMIT</button>
+        </h2>
+        </div>
+      </div>
+    </div>
+    <div class="row py-2">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row py-2">
+      <div class="col-xs-12  col-md-9">
+        <div class="var_descriptions">
+          <h3>Variables Descriptions:</h3>
+          <hr>
+          <p><strong>Freedom to make life choices </strong>is the national average of binary responses to the GWP question “Are you satisfied or dissatisfied with your freedom to choose what you do with your life?”</p>
+          <p><strong>GDP per Capita (ln)</strong> is in terms of Purchasing Power Parity (PPP) adjusted to constant 2011 international dollars, taken from the World Development Indicators (WDI) released by the World Bank on November 14, 2018.</p>
+          <p><strong>Generosity</strong> is the residual of regressing the national average of GWP responses to the question “Have you donated money to a charity in the past month?” on GDP per capita.</p>
+          <p><strong>Life Evaluation</strong> is measured using the Cantril ladder question which asks respondents to value 
+            their lives today on a 0 to 10 scale, with the worst possible life as a 0 and the best possible life as a 10. 
+          It is a subjective measure of well-being.</p>
+          <p>The time series of <strong>healthy life expectancy at birth </strong>are constructed based on data from the World Health Organization (WHO) Global Health Observatory data repository, with data available for 2005, 2010, 2015, and 2016. To match this report’s sample period, interpolation and extrapolation are used.</p>
+          <p><strong>>Negative affect </strong>is defined as the average of previous-day affect measures for worry, sadness, and anger for all waves.</p>
+          <p><strong>Perceptions of corruption</strong> are the average of binary answers to two GWP questions: “Is corruption widespread throughout the government or not?” and “Is corruption widespread within businesses or not?” Where data for government corruption are missing, the perception of business corruption is used as the overall corrup- tion-perception measure.</p>
+          <p><strong>Positive affect </strong>is defined as the average of previous-day affect measures for happiness, laughter, and enjoyment for GWP waves 3-7 (years 2008 to 2012, and some in 2013). It is defined as the average of laughter and enjoyment for other waves where the happiness question was not asked. The general form for the affect questions is: Did you experience the following feelings during a lot of the day yesterday?</p>
+          <p><strong>Social support </strong>is the national average
+            of the binary responses (either 0 or 1)
+            to the Gallup World Poll (GWP) question “If you were in trouble, do you have relatives or friends you can count on
+            to help you whenever you need them,
+            or not?”</p>
+          <p>'Well-being Inequality' is an indicator of the inequality of happiness within a country, as measured by the 
+            standard deviation of the distribution of the individual life evaluations on the 0 to 10 scale, from 2005-2006 to 2018.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="https://petitspoissons.github.io/WHR2019/charts/static/js/whr_chart.js"></script>
+
+</body>

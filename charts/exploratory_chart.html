@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>World Happiness in Graphs</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://petitspoissons.github.io/WHR2019/charts/static/css/whr_chart.css">
+  <link rel="stylesheet" type="text/css" href="https://petitspoissons.github.io/WHR2019/charts/static/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container bg-white">      
+        <nav class="navbar navbar-expand-md animated fadeInDown navbar-light">
+            <img class="navbar-brand" id="whr_icon" src="https://petitspoissons.github.io/WHR2019/assets/images/whr_logo.jpg" alt="icon for whr">
+            <a class="navbar-brand text-white px-3" id="whr2019" href="https://petitspoissons.github.io/WHR2019/index.html"><h3>WHR 2019</h3></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Infographics</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="https://petitspoissons.github.io/WHR2019/world_map/world_map.html" target="_blank">World Map</a>
+                          <a class="dropdown-item" href="https://petitspoissons.github.io/WHR2019/charts/whr_chart.html" target="_blank">Results Plot</a>
+                          <a class="dropdown-item" href="https://petitspoissons.github.io/WHR2019/charts/exploratory_chart.html" target="_blank">Exploratory Plot</a>
+                          <a class="dropdown-item" href="https://petitspoissons.github.io/WHR2019/index.html" target="_blank">Time Series</a>
+                      </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://petitspoissons.github.io/WHR2019/table/table.html" target="_blank">Data</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://petitspoissons.github.io/WHR2019/intro.html">Slides</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+  <div class="container">
+    <div class="row py-2">
+      <div class="col-xs-12 col-md-12">
+        <h1>Data Exploration</h1>
+      </div>
+    </div>
+    <div class="row py-2">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+
+    <div class="row margin-top-50">
+        <div class="col-md-12">
+            <aside class="filters">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <form class="form-row">
+                            <div class="col-md-3 filter list-group-item">
+                                <label for="xVar">x-axis:</label>
+                                <select name="xVar" id="xVar">
+                                    <option selected="selected" value="ladder">Life Evaluation</option>
+                                    <option value="well_being_inequality_1">Happiness Inequality</option>
+                                    <option value="positive_affect">Positive Affect</option>
+                                    <option value="negative_affect">Negative Affect</option>
+                                    <option value="social_support">Social Support</option>
+                                    <option value="freedom">Freedom</option>
+                                    <option value="corruption">Corruption</option>
+                                    <option value="generosity">Generosity</option>
+                                    <option value="log_gdp_per_capita">GDP per Capita (log)</option>
+                                    <option value="healthy_life_expectancy">Life Expectancy</option>
+                                    <option value="landlocked">Landlocked</option>
+                                    <option value="nb_borders">Number of Borders</option>
+                                    <option value="area_sqkm">Area (sqkm)</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3 filter list-group-item">
+                                <label for="yVar">y-axis:</label>
+                                <select name="yVar" id="yVar">
+                                        <option value="ladder">Life Evaluation</option>
+                                        <option value="well_being_inequality_1">Happiness Inequality</option>
+                                        <option value="positive_affect">Positive Affect</option>
+                                        <option value="negative_affect">Negative Affect</option>
+                                        <option value="social_support">Social Support</option>
+                                        <option value="freedom">Freedom</option>
+                                        <option value="corruption">Corruption</option>
+                                        <option value="generosity">Generosity</option>
+                                        <option selected="selected" value="log_gdp_per_capita">GDP per Capita (log)</option>
+                                        <option value="healthy_life_expectancy">Life Expectancy</option>
+                                        <option value="landlocked">Landlocked</option>
+                                        <option value="nb_borders">Number of Borders</option>
+                                        <option value="area_sqkm">Area (sqkm)</option>
+                                </select>
+                            </div>  
+                            </form>
+                            <button id="filter-btn" type="submit" class="btn btn-default">Show Graph</button> 
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="https://petitspoissons.github.io/WHR2019/charts/static/js/exploratory_chart.js"></script>
+
+</body>
