@@ -1,0 +1,75 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #whr_icon {
+    float: left;
+    width: 10%;
+    height: auto;
+  }
+
+  .whr-form {
+    margin-top: 50px;
+  }
+  
+  .filters .panel-body {
+    padding: 0;
+  }
+  
+  .filters {
+    margin-top: 10px;
+  }
+  
+  select {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    color: #8e979f;
+    outline: none;
+  }
+
+
+
+  @media screen and (min-width: 768px) {
+    .navbar {
+      display: flex;
+      background-color : #fff;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main {
+      flex-flow: column wrap;
+      margin: 0 0;
+      align-content: center;
+    }
+    .jumbotron h1, h2 {
+      font-size: 2rem;
+    }
+    .left {
+      width: 80%;
+    }
+    .right {
+      width: 80%;
+      margin-top: 10px;
+      padding-top: 0px;
+    }
+    #whr_icon {
+      display: none;
+    }
+  }
+  
+  
