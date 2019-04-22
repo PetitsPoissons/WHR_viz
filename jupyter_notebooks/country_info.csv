@@ -1,0 +1,186 @@
+﻿country,ISO code,OECD,CIS,NATO,EU,Schengen,Eurozone,ACP Group,CAN,APEC,BSEC,Caricom,EFTA,NAFTA,WTO,continent,region
+Afghanistan,AFG,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,South Asia
+Albania,ALB,0,0,1,0,0,0,0,0,0,1,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Algeria,DZA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Africa,Middle East and North Africa
+Angola,AGO,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Argentina,ARG,0,0,0,0,0,0,0,0,0,0,0,0,0,1,South America,Latin America and the Caribbean
+Armenia,ARM,0,1,0,0,0,0,0,0,0,1,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Australia,AUS,1,0,0,0,0,0,0,0,1,0,0,0,0,1,Oceania,Australia and Oceania
+Austria,AUT,1,0,0,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Azerbaijan,AZE,0,1,0,0,0,0,0,0,0,1,0,0,0,0,Europe,"Western, Central, and Eastern Europe"
+Bahamas,BHS,0,0,0,0,0,0,1,0,0,0,1,0,0,0,North America,Latin America and the Caribbean
+Bahrain,BHR,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Africa,Middle East and North Africa
+Bangladesh,BGD,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,South Asia
+Barbados,BRB,0,0,0,0,0,0,1,0,0,0,1,0,0,1,North America,Latin America and the Caribbean
+Belarus,BLR,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Europe,"Western, Central, and Eastern Europe"
+Belgium,BEL,1,0,1,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Belize,BLZ,0,0,0,0,0,0,1,0,0,0,1,0,0,1,North America,Latin America and the Caribbean
+Benin,BEN,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Bhutan,BTN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Asia,South Asia
+Bolivia,BOL,0,0,0,0,0,0,0,1,0,0,0,0,0,1,South America,Latin America and the Caribbean
+Bosnia and Herzegovina,BIH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Europe,"Western, Central, and Eastern Europe"
+Botswana,BWA,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Brazil,BRA,0,0,0,0,0,0,0,0,0,0,0,0,0,1,South America,Latin America and the Caribbean
+Brunei Darussalam,BRN,0,0,0,0,0,0,0,0,1,0,0,0,0,1,Asia,
+Bulgaria,BGR,0,0,1,1,0,0,0,0,0,1,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Burkina Faso,BFA,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Burundi,BDI,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Cabo Verde,CPV,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Cambodia,KHM,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,Southeast Asia
+Cameroon,CMR,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Canada,CAN,1,0,1,0,0,0,0,0,1,0,0,0,1,1,North America,North America
+Central African Republic,CAF,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Chad,TCD,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Chile,CHL,1,0,0,0,0,0,0,0,1,0,0,0,0,1,South America,Latin America and the Caribbean
+China,CHN,0,0,0,0,0,0,0,0,1,0,0,0,0,1,Asia,East Asia
+Colombia,COL,0,0,0,0,0,0,0,1,0,0,0,0,0,1,South America,Latin America and the Caribbean
+Comoros,COM,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Africa,Sub-Saharan Africa
+Congo (Brazzaville),COG,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Congo (Kinshasa),COD,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Costa Rica,CRI,0,0,0,0,0,0,0,0,0,0,0,0,0,1,North America,Latin America and the Caribbean
+Croatia,HRV,0,0,1,1,0,0,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Cuba,CUB,0,0,0,0,0,0,0,0,0,0,0,0,0,1,North America,Latin America and the Caribbean
+Cyprus,CYP,0,0,0,1,0,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Czech Republic,CZE,1,0,1,1,1,0,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Democratic Republic of the Congo,COD,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Denmark,DNK,1,0,0,1,1,0,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Djibouti,DJI,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Dominica,DMA,0,0,0,0,0,0,1,0,0,0,1,0,0,1,North America,Latin America and the Caribbean
+Dominican Republic,DOM,0,0,0,0,0,0,1,0,0,0,0,0,0,1,North America,Latin America and the Caribbean
+Ecuador,ECU,0,0,0,0,0,0,0,1,0,0,0,0,0,1,South America,Latin America and the Caribbean
+Egypt,EGY,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Africa,Middle East and North Africa
+El Salvador,SLV,0,0,0,0,0,0,0,0,0,0,0,0,0,1,North America,Latin America and the Caribbean
+Equatorial Guinea,GNQ,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Africa,Sub-Saharan Africa
+Eritrea,ERI,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Africa,Sub-Saharan Africa
+Estonia,EST,1,0,1,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Ethiopia,ETH,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Africa,Sub-Saharan Africa
+Finland,FIN,1,0,0,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+France,FRA,1,0,1,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Gabon,GAB,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Gambia,GMB,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Georgia,GEO,0,1,0,0,0,0,0,0,0,1,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Germany,DEU,1,0,1,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Ghana,GHA,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Greece,GRC,1,0,1,1,1,1,0,0,0,1,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Grenada,GRD,0,0,0,0,0,0,1,0,0,0,1,0,0,1,North America,Latin America and the Caribbean
+Guatemala,GTM,0,0,0,0,0,0,0,0,0,0,0,0,0,1,North America,Latin America and the Caribbean
+Guinea,GIN,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Guinea Bissau,GNB,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Guyana,GUY,0,0,0,0,0,0,1,0,0,0,1,0,0,1,South America,Latin America and the Caribbean
+Haiti,HTI,0,0,0,0,0,0,1,0,0,0,1,0,0,1,North America,Latin America and the Caribbean
+Honduras,HND,0,0,0,0,0,0,0,0,0,0,0,0,0,1,North America,Latin America and the Caribbean
+Hong Kong S.A.R. of China,HKG,0,0,0,0,0,0,0,0,1,0,0,0,0,1,Asia,East Asia
+Hungary,HUN,1,0,1,1,1,0,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Iceland,ISL,1,0,1,0,0,0,0,0,0,0,0,1,0,1,Europe,"Western, Central, and Eastern Europe"
+India,IND,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,South Asia
+Indonesia,IDN,0,0,0,0,0,0,0,0,1,0,0,0,0,1,Asia,Southeast Asia
+Iran,IRN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Asia,Middle East and North Africa
+Iraq,IRQ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Asia,Middle East and North Africa
+Ireland,IRL,1,0,0,1,0,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Israel,ISR,1,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,Middle East and North Africa
+Italy,ITA,1,0,1,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Ivory Coast,CIV,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Jamaica,JAM,0,0,0,0,0,0,1,0,0,0,1,0,0,1,North America,Latin America and the Caribbean
+Japan,JPN,1,0,0,0,0,0,0,0,1,0,0,0,0,1,Asia,East Asia
+Jordan,JOR,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Jordan,Middle East and North Africa
+Kazakhstan,KAZ,0,1,0,0,0,0,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Kenya,KEN,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Kosovo,UNK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Europe,"Western, Central, and Eastern Europe"
+Kuwait,KWT,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,Middle East and North Africa
+Kyrgyzstan,KGZ,0,1,0,0,0,0,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Laos,LAO,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,Southeast Asia
+Latvia,LVA,1,0,1,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Lebanon,LBN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Asia,Middle East and North Africa
+Lesotho,LSO,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Liberia,LBR,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Libya,LBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Africa,Middle East and North Africa
+Lithuania,LTU,1,0,1,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Luxembourg,LUX,1,0,1,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Macedonia,MKD,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Madagascar,MDG,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Malawi,MWI,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Malaysia,MYS,0,0,0,0,0,0,0,0,1,0,0,0,0,1,Asia,Southeast Asia
+Maldives,MDV,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,Southeast Asia
+Mali,MLI,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Malta,MLT,0,0,0,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Mauritania,MRT,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Mauritius,MUS,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Mexico,MEX,1,0,0,0,0,0,0,0,1,0,0,0,1,1,North America,Latin America and the Caribbean
+Moldova,MDA,0,1,0,0,0,0,0,0,0,1,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Mongolia,MNG,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,East Asia
+Montenegro,MNE,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Morocco,MAR,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Africa,Middle East and North Africa
+Mozambique,MOZ,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Myanmar,MMR,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,Southeast Asia
+Namibia,NAM,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Nepal,NPL,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,South Asia
+Netherlands,NLD,1,0,1,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+New Zealand,NZL,1,0,0,0,0,0,0,0,1,0,0,0,0,1,Oceania,Australia and Oceania
+Nicaragua,NIC,0,0,0,0,0,0,0,0,0,0,0,0,0,1,North America,Latin America and the Caribbean
+Niger,NER,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Nigeria,NGA,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+North Cyprus,TRNC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Europe,"Western, Central, and Eastern Europe"
+North Korea,PRK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Asia,East Asia
+Norway,NOR,1,0,1,0,0,0,0,0,0,0,0,1,0,1,Europe,"Western, Central, and Eastern Europe"
+Oman,OMN,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,Middle East and North Africa
+Pakistan,PAK,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,South Asia
+Palestinian Territories,PSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Asia,Middle East and North Africa
+Panama,PAN,0,0,0,0,0,0,0,0,0,0,0,0,0,1,North America,Latin America and the Caribbean
+Papua New Guinea,PNG,0,0,0,0,0,0,1,0,1,0,0,0,0,1,Oceania,Australia and Oceania
+Paraguay,PRY,0,0,0,0,0,0,0,0,0,0,0,0,0,1,South America,Latin America and the Caribbean
+Peru,PER,0,0,0,0,0,0,0,1,1,0,0,0,0,1,South America,Latin America and the Caribbean
+Philippines,PHL,0,0,0,0,0,0,0,0,1,0,0,0,0,1,Asia,Southeast Asia
+Poland,POL,1,0,1,1,1,0,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Portugal,PRT,1,0,1,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Qatar,QAT,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,Middle East and North Africa
+Romania,ROU,0,0,1,1,0,0,0,0,0,1,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Russia,RUS,0,1,0,0,0,0,0,0,1,1,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Rwanda,RWA,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Saint Lucia,LCA,0,0,0,0,0,0,1,0,0,0,1,0,0,1,North America,Latin America and the Caribbean
+Saint Vincent and the Grenadines,VCT,0,0,0,0,0,0,1,0,0,0,1,0,0,1,North America,Latin America and the Caribbean
+Sao Tome and Principe,STP,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Africa,Sub-Saharan Africa
+Saudi Arabia,SAU,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,Middle East and North Africa
+Senegal,SEN,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Serbia,SRB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Europe,"Western, Central, and Eastern Europe"
+Seychelles,SYC,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Sierra Leone,SLE,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Singapore,SGP,0,0,0,0,0,0,0,0,1,0,0,0,0,1,Asia,Southeast Asia
+Slovakia,SVK,1,0,1,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Slovenia,SVN,1,0,1,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Solomon Islands,SLB,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Oceania,Australia and Oceania
+Somalia,SOM,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Africa,Sub-Saharan Africa
+Somaliland region,SOM,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Africa,Sub-Saharan Africa
+South Africa,ZAF,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+South Korea,KOR,1,0,0,0,0,0,0,0,1,0,0,0,0,1,Asia,East Asia
+South Sudan,SSD,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Africa,Sub-Saharan Africa
+Spain,ESP,1,0,1,1,1,1,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Sri Lanka,LKA,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,South Asia
+Sudan,SDN,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Africa,Sub-Saharan Africa
+Suriname,SUR,0,0,0,0,0,0,1,0,0,0,1,0,0,1,South America,Latin America and the Caribbean
+Swaziland,SWZ,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Africa,Sub-Saharan Africa
+Sweden,SWE,1,0,0,1,1,0,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Switzerland,CHE,1,0,0,0,0,0,0,0,0,0,0,1,0,1,Europe,"Western, Central, and Eastern Europe"
+Syria,SYR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Asia,Middle East and North Africa
+Taiwan Province of China,TWN,0,0,0,0,0,0,0,0,1,0,0,0,0,1,Asia,East Asia
+Tajikistan,TJK,0,1,0,0,0,0,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Tanzania,TZA,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Thailand,THA,0,0,0,0,0,0,0,0,1,0,0,0,0,1,Asia,Southeast Asia
+Timor-Leste,TLS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Asia,Southeast Asia
+Togo,TGO,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Trinidad and Tobago,TTO,0,0,0,0,0,0,1,0,0,0,1,0,0,1,North America,Latin America and the Caribbean
+Tunisia,TUN,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Africa,Middle East and North Africa
+Turkey,TUR,1,0,1,0,0,0,0,0,0,1,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+Turkmenistan,TKM,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Europe,"Western, Central, and Eastern Europe"
+Uganda,UGA,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Africa,Sub-Saharan Africa
+Ukraine,UKR,0,1,0,0,0,0,0,0,0,1,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+United Arab Emirates,ARE,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Asia,Middle East and North Africa
+United Kingdom,GBR,1,0,1,1,0,0,0,0,0,0,0,0,0,1,Europe,"Western, Central, and Eastern Europe"
+United States,USA,1,0,1,0,0,0,0,0,1,0,0,0,1,1,North America,Latin America and the Caribbean
+Uruguay,URY,0,0,0,0,0,0,0,0,0,0,0,0,0,1,South America,Latin America and the Caribbean
+Uzbekistan,UZB,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Europe,"Western, Central, and Eastern Europe"
+Vanuatu,VUT,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Oceania,Australia and Oceania
+Venezuela,VEN,0,0,0,0,0,0,0,1,0,0,0,0,0,1,South America,Latin America and the Caribbean
+Vietnam,VNM,0,0,0,0,0,0,0,0,1,0,0,0,0,1,Asia,Southeast Asia
+Yemen,YEM,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Asia,Middle East and North Africa
+Zambia,ZMB,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Africa,Sub-Saharan Africa
+Zimbabwe,ZWE,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Africa,Sub-Saharan Africa

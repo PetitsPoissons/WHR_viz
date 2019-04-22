@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #whr_icon {
+    float: left;
+    width: 10%;
+    height: auto;
+  }
+  
+  a:link {
+    color: inherit; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  tbody span {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(238, 90, 114);
+  }
+  
+  #qMark {
+    font-size: 7rem;
+    font-weight: bolder;
+  }
+  
+  
+  .footer {
+    border-top: 5px solid rgb(65, 170, 206);
+    font-size: 12px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .navbar {
+      display: flex;
+      background-color : #fff;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main {
+      flex-flow: column wrap;
+      margin: 0 0;
+      align-content: center;
+    }
+    .jumbotron h1, h2 {
+      font-size: 2rem;
+    }
+    .left {
+      width: 80%;
+    }
+    .right {
+      width: 80%;
+      margin-top: 10px;
+      padding-top: 0px;
+    }
+    #whr_icon {
+      display: none;
+    }
+  }

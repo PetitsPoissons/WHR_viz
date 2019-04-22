@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="USC Bootcamp - WHR Project" content="HTML, CSS, Bootstrap"/>
+    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://petitspoissons.github.io/WHR2019/table/static/css/table.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+        <title>World Happiness Report 2019</title>
+</head>
+
+<body>
+    <div class="container bg-white">      
+        <nav class="navbar navbar-expand-md animated fadeInDown navbar-light">
+            <img class="navbar-brand" id="whr_icon" src="https://petitspoissons.github.io/WHR2019/assets/images/whr_logo.jpg" alt="icon for whr">
+            <a class="navbar-brand px-3" id="whr_title" href="https://petitspoissons.github.io/WHR2019/index.html"><h3>Visualizing World Happiness</h3></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Infographics</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://petitspoissons.github.io/WHR2019/world_map/world_map.html" target="_blank">World Map</a>
+                            <a class="dropdown-item" href="https://petitspoissons.github.io/WHR2019/charts/whr_chart.html" target="_blank">Results Plot</a>
+                            <a class="dropdown-item" href="https://petitspoissons.github.io/WHR2019/charts/exploratory_chart.html" target="_blank">Exploratory Plot</a>
+                            <a class="dropdown-item" href="https://petitspoissons.github.io/WHR2019/index.html" target="_blank">Time Series</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://petitspoissons.github.io/WHR2019/table/table.html" target="_blank">Data</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://petitspoissons.github.io/WHR2019/intro.html" target="_blank">Slides</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+<hr>
+<div class="container">
+    <div class="row margin-top-50">
+        <div class="col-md-12">
+            <aside class="filters">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h4>Search by:</h4></div>
+                        <div class="panel-body">
+                            <form class="form-row" id="myForm">
+                                <div class="col-md-4 filter list-group-item">
+                                    <label for="rank">Rank</label>
+                                    <input name="rank" class="form-control" id="rank" type="text" placeholder="all">
+                                </div> 
+                                <div class="col-md-4 filter list-group-item">
+                                    <label for="country">Country</label><br>
+                                    <select name="country" id="countries">
+                                        <option selected="selected" value="all">all</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4 filter list-group-item">
+                                    <label for="year">Year</label><br>
+                                    <select name="year" id="years">
+                                        <option selected="selected" value="all">all</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2015">2015</option>
+                                        <option value="2014">2014</option>
+                                        <option value="2013">2013</option>
+                                        <option value="2012">2012</option>
+                                        <option value="2011">2011</option>
+                                        <option value="2010">2010</option>
+                                        <option value="2009">2009</option>
+                                        <option value="2008">2008</option>
+                                        <option value="2007">2007</option>
+                                        <option value="2006">2006</option>
+                                        <option value="2005">2005</option>
+                                    </select>
+                                </div>
+                                <button id="filter-btn" type="submit" class="btn btn-default">Filter Table</button>
+                                <button id="all-btn" type="submit" class="btn btn-default">Reset Table</button>
+                            </form> 
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+      
+    <div class="row">
+        <div class="col-md-12">
+            <div id="table-area" class="">
+                <table id="whr-table" class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th class="table-head">Rank</th>
+                        <th class="table-head">Country</th>
+                        <th class="table-head">Year</th>
+                        <th class="table-head">Happiness Score</th>
+                        <th class="table-head">Happiness Inequality</th>
+                        <th class="table-head">Positive Affect</th>
+                        <th class="table-head">Negative Affect</th>
+                        <th class="table-head">Social Support</th>
+                        <th class="table-head">Freedom</th>
+                        <th class="table-head">Corruption</th>
+                        <th class="table-head">Generosity</th>
+                        <th class="table-head">GDP per Capita(ln)</th>
+                        <th class="table-head">Life Expectancy</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<footer class="bg-dark text-white text-center pt-3 pb-2">
+    <p>World Happiness Report 2019</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://petitspoissons.github.io/WHR2019/table/static/js/table.js"></script>
+
+</body>
+
+</html>
